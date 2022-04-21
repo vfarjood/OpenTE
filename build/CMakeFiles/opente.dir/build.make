@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.21.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator
+CMAKE_SOURCE_DIR = /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build
+CMAKE_BINARY_DIR = /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/opente.dir/depend.make
@@ -72,114 +72,114 @@ include CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/core/CoreTE.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/core/CoreTE.cpp.o: ../src/core/CoreTE.cpp
 CMakeFiles/opente.dir/src/core/CoreTE.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opente.dir/src/core/CoreTE.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/core/CoreTE.cpp.o -MF CMakeFiles/opente.dir/src/core/CoreTE.cpp.o.d -o CMakeFiles/opente.dir/src/core/CoreTE.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/core/CoreTE.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opente.dir/src/core/CoreTE.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/core/CoreTE.cpp.o -MF CMakeFiles/opente.dir/src/core/CoreTE.cpp.o.d -o CMakeFiles/opente.dir/src/core/CoreTE.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/core/CoreTE.cpp
 
 CMakeFiles/opente.dir/src/core/CoreTE.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/core/CoreTE.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/core/CoreTE.cpp > CMakeFiles/opente.dir/src/core/CoreTE.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/core/CoreTE.cpp > CMakeFiles/opente.dir/src/core/CoreTE.cpp.i
 
 CMakeFiles/opente.dir/src/core/CoreTE.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/core/CoreTE.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/core/CoreTE.cpp -o CMakeFiles/opente.dir/src/core/CoreTE.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/core/CoreTE.cpp -o CMakeFiles/opente.dir/src/core/CoreTE.cpp.s
 
 CMakeFiles/opente.dir/src/features/FileManager.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/features/FileManager.cpp.o: ../src/features/FileManager.cpp
 CMakeFiles/opente.dir/src/features/FileManager.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opente.dir/src/features/FileManager.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/features/FileManager.cpp.o -MF CMakeFiles/opente.dir/src/features/FileManager.cpp.o.d -o CMakeFiles/opente.dir/src/features/FileManager.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/features/FileManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opente.dir/src/features/FileManager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/features/FileManager.cpp.o -MF CMakeFiles/opente.dir/src/features/FileManager.cpp.o.d -o CMakeFiles/opente.dir/src/features/FileManager.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/features/FileManager.cpp
 
 CMakeFiles/opente.dir/src/features/FileManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/features/FileManager.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/features/FileManager.cpp > CMakeFiles/opente.dir/src/features/FileManager.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/features/FileManager.cpp > CMakeFiles/opente.dir/src/features/FileManager.cpp.i
 
 CMakeFiles/opente.dir/src/features/FileManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/features/FileManager.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/features/FileManager.cpp -o CMakeFiles/opente.dir/src/features/FileManager.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/features/FileManager.cpp -o CMakeFiles/opente.dir/src/features/FileManager.cpp.s
 
 CMakeFiles/opente.dir/src/main.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/opente.dir/src/main.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opente.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/main.cpp.o -MF CMakeFiles/opente.dir/src/main.cpp.o.d -o CMakeFiles/opente.dir/src/main.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opente.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/main.cpp.o -MF CMakeFiles/opente.dir/src/main.cpp.o.d -o CMakeFiles/opente.dir/src/main.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/main.cpp
 
 CMakeFiles/opente.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/main.cpp > CMakeFiles/opente.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/main.cpp > CMakeFiles/opente.dir/src/main.cpp.i
 
 CMakeFiles/opente.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/main.cpp -o CMakeFiles/opente.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/main.cpp -o CMakeFiles/opente.dir/src/main.cpp.s
 
 CMakeFiles/opente.dir/src/model/MobileNet.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/model/MobileNet.cpp.o: ../src/model/MobileNet.cpp
 CMakeFiles/opente.dir/src/model/MobileNet.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opente.dir/src/model/MobileNet.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/model/MobileNet.cpp.o -MF CMakeFiles/opente.dir/src/model/MobileNet.cpp.o.d -o CMakeFiles/opente.dir/src/model/MobileNet.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/model/MobileNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opente.dir/src/model/MobileNet.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/model/MobileNet.cpp.o -MF CMakeFiles/opente.dir/src/model/MobileNet.cpp.o.d -o CMakeFiles/opente.dir/src/model/MobileNet.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/model/MobileNet.cpp
 
 CMakeFiles/opente.dir/src/model/MobileNet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/model/MobileNet.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/model/MobileNet.cpp > CMakeFiles/opente.dir/src/model/MobileNet.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/model/MobileNet.cpp > CMakeFiles/opente.dir/src/model/MobileNet.cpp.i
 
 CMakeFiles/opente.dir/src/model/MobileNet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/model/MobileNet.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/model/MobileNet.cpp -o CMakeFiles/opente.dir/src/model/MobileNet.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/model/MobileNet.cpp -o CMakeFiles/opente.dir/src/model/MobileNet.cpp.s
 
 CMakeFiles/opente.dir/src/model/Subtraction.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/model/Subtraction.cpp.o: ../src/model/Subtraction.cpp
 CMakeFiles/opente.dir/src/model/Subtraction.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opente.dir/src/model/Subtraction.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/model/Subtraction.cpp.o -MF CMakeFiles/opente.dir/src/model/Subtraction.cpp.o.d -o CMakeFiles/opente.dir/src/model/Subtraction.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/model/Subtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opente.dir/src/model/Subtraction.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/model/Subtraction.cpp.o -MF CMakeFiles/opente.dir/src/model/Subtraction.cpp.o.d -o CMakeFiles/opente.dir/src/model/Subtraction.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/model/Subtraction.cpp
 
 CMakeFiles/opente.dir/src/model/Subtraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/model/Subtraction.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/model/Subtraction.cpp > CMakeFiles/opente.dir/src/model/Subtraction.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/model/Subtraction.cpp > CMakeFiles/opente.dir/src/model/Subtraction.cpp.i
 
 CMakeFiles/opente.dir/src/model/Subtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/model/Subtraction.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/model/Subtraction.cpp -o CMakeFiles/opente.dir/src/model/Subtraction.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/model/Subtraction.cpp -o CMakeFiles/opente.dir/src/model/Subtraction.cpp.s
 
 CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o: ../src/utils/CmdLineParser.cpp
 CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o -MF CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o.d -o CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/CmdLineParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o -MF CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o.d -o CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/CmdLineParser.cpp
 
 CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/CmdLineParser.cpp > CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/CmdLineParser.cpp > CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.i
 
 CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/CmdLineParser.cpp -o CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/CmdLineParser.cpp -o CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.s
 
 CMakeFiles/opente.dir/src/utils/Log.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/utils/Log.cpp.o: ../src/utils/Log.cpp
 CMakeFiles/opente.dir/src/utils/Log.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/opente.dir/src/utils/Log.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/utils/Log.cpp.o -MF CMakeFiles/opente.dir/src/utils/Log.cpp.o.d -o CMakeFiles/opente.dir/src/utils/Log.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/opente.dir/src/utils/Log.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/utils/Log.cpp.o -MF CMakeFiles/opente.dir/src/utils/Log.cpp.o.d -o CMakeFiles/opente.dir/src/utils/Log.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Log.cpp
 
 CMakeFiles/opente.dir/src/utils/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/utils/Log.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Log.cpp > CMakeFiles/opente.dir/src/utils/Log.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Log.cpp > CMakeFiles/opente.dir/src/utils/Log.cpp.i
 
 CMakeFiles/opente.dir/src/utils/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/utils/Log.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Log.cpp -o CMakeFiles/opente.dir/src/utils/Log.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Log.cpp -o CMakeFiles/opente.dir/src/utils/Log.cpp.s
 
 CMakeFiles/opente.dir/src/utils/Timer.cpp.o: CMakeFiles/opente.dir/flags.make
 CMakeFiles/opente.dir/src/utils/Timer.cpp.o: ../src/utils/Timer.cpp
 CMakeFiles/opente.dir/src/utils/Timer.cpp.o: CMakeFiles/opente.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/opente.dir/src/utils/Timer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/utils/Timer.cpp.o -MF CMakeFiles/opente.dir/src/utils/Timer.cpp.o.d -o CMakeFiles/opente.dir/src/utils/Timer.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/opente.dir/src/utils/Timer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opente.dir/src/utils/Timer.cpp.o -MF CMakeFiles/opente.dir/src/utils/Timer.cpp.o.d -o CMakeFiles/opente.dir/src/utils/Timer.cpp.o -c /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Timer.cpp
 
 CMakeFiles/opente.dir/src/utils/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opente.dir/src/utils/Timer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Timer.cpp > CMakeFiles/opente.dir/src/utils/Timer.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Timer.cpp > CMakeFiles/opente.dir/src/utils/Timer.cpp.i
 
 CMakeFiles/opente.dir/src/utils/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opente.dir/src/utils/Timer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Timer.cpp -o CMakeFiles/opente.dir/src/utils/Timer.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Timer.cpp -o CMakeFiles/opente.dir/src/utils/Timer.cpp.s
 
 # Object files for target opente
 opente_OBJECTS = \
@@ -261,7 +261,7 @@ opente: /usr/local/lib/libopencv_photo.4.5.5.dylib
 opente: /usr/local/lib/libopencv_imgproc.4.5.5.dylib
 opente: /usr/local/lib/libopencv_core.4.5.5.dylib
 opente: CMakeFiles/opente.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable opente"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable opente"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opente.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -273,6 +273,6 @@ CMakeFiles/opente.dir/clean:
 .PHONY : CMakeFiles/opente.dir/clean
 
 CMakeFiles/opente.dir/depend:
-	cd /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/build/CMakeFiles/opente.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/build/CMakeFiles/opente.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/opente.dir/depend
 

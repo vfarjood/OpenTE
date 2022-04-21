@@ -1,6 +1,6 @@
 CMakeFiles/opente.dir/src/utils/CmdLineParser.cpp.o: \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/CmdLineParser.cpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/utils/CmdLineParser.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/CmdLineParser.cpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/utils/CmdLineParser.hpp \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/core/utility.hpp \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/core.hpp \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/core/cvdef.h \

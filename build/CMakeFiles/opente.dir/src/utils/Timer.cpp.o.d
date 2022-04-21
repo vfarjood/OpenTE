@@ -1,6 +1,6 @@
 CMakeFiles/opente.dir/src/utils/Timer.cpp.o: \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Timer.cpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/utils/Timer.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Timer.cpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/utils/Timer.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread.h \

@@ -1,6 +1,6 @@
 CMakeFiles/opente.dir/src/utils/Log.cpp.o: \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/utils/Log.cpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/utils/Log.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/utils/Log.cpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/utils/Log.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread.h \

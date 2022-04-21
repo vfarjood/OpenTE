@@ -1,6 +1,6 @@
 CMakeFiles/opente.dir/src/main.cpp.o: \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/main.cpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/core/CoreTE.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/main.cpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/core/CoreTE.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread.h \
@@ -355,16 +355,16 @@ CMakeFiles/opente.dir/src/main.cpp.o: \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/video.hpp \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/utils/Log.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/utils/Timer.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/utils/CmdLineParser.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/feature/FileManager.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/entity/DataType.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/feature/QueueStream.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/model/ModelEngine.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/model/Model.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/model/MobileNet.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/utils/Log.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/utils/Timer.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/utils/CmdLineParser.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/feature/FileManager.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/entity/DataType.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/feature/QueueStream.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/ModelEngine.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/Model.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/MobileNet.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/random \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/dnn/all_layers.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/model/Subtraction.hpp
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/Subtraction.hpp

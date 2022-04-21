@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include -isystem /usr/local/Cellar/opencv/4.5.5_1/include/opencv4
+CXX_INCLUDES = -I/Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include -isystem /usr/local/Cellar/opencv/4.5.5_1/include/opencv4
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17
 

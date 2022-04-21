@@ -1,6 +1,6 @@
 CMakeFiles/opente.dir/src/features/FileManager.cpp.o: \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/src/features/FileManager.cpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/feature/FileManager.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/src/features/FileManager.cpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/feature/FileManager.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/pthread.h \
@@ -354,6 +354,6 @@ CMakeFiles/opente.dir/src/features/FileManager.cpp.o: \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/video.hpp \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/entity/DataType.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/utils/CmdLineParser.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/Traffic_Estimator/include/opente/feature/QueueStream.hpp
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/entity/DataType.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/utils/CmdLineParser.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/feature/QueueStream.hpp
