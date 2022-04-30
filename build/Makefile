@@ -201,53 +201,77 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/model/MobileNet.o: src/model/MobileNet.cpp.o
-.PHONY : src/model/MobileNet.o
+src/model/detector/MobileNet.o: src/model/detector/MobileNet.cpp.o
+.PHONY : src/model/detector/MobileNet.o
 
 # target to build an object file
-src/model/MobileNet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/MobileNet.cpp.o
-.PHONY : src/model/MobileNet.cpp.o
+src/model/detector/MobileNet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/MobileNet.cpp.o
+.PHONY : src/model/detector/MobileNet.cpp.o
 
-src/model/MobileNet.i: src/model/MobileNet.cpp.i
-.PHONY : src/model/MobileNet.i
+src/model/detector/MobileNet.i: src/model/detector/MobileNet.cpp.i
+.PHONY : src/model/detector/MobileNet.i
 
 # target to preprocess a source file
-src/model/MobileNet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/MobileNet.cpp.i
-.PHONY : src/model/MobileNet.cpp.i
+src/model/detector/MobileNet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/MobileNet.cpp.i
+.PHONY : src/model/detector/MobileNet.cpp.i
 
-src/model/MobileNet.s: src/model/MobileNet.cpp.s
-.PHONY : src/model/MobileNet.s
+src/model/detector/MobileNet.s: src/model/detector/MobileNet.cpp.s
+.PHONY : src/model/detector/MobileNet.s
 
 # target to generate assembly for a file
-src/model/MobileNet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/MobileNet.cpp.s
-.PHONY : src/model/MobileNet.cpp.s
+src/model/detector/MobileNet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/MobileNet.cpp.s
+.PHONY : src/model/detector/MobileNet.cpp.s
 
-src/model/Subtraction.o: src/model/Subtraction.cpp.o
-.PHONY : src/model/Subtraction.o
+src/model/detector/Subtraction.o: src/model/detector/Subtraction.cpp.o
+.PHONY : src/model/detector/Subtraction.o
 
 # target to build an object file
-src/model/Subtraction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/Subtraction.cpp.o
-.PHONY : src/model/Subtraction.cpp.o
+src/model/detector/Subtraction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/Subtraction.cpp.o
+.PHONY : src/model/detector/Subtraction.cpp.o
 
-src/model/Subtraction.i: src/model/Subtraction.cpp.i
-.PHONY : src/model/Subtraction.i
+src/model/detector/Subtraction.i: src/model/detector/Subtraction.cpp.i
+.PHONY : src/model/detector/Subtraction.i
 
 # target to preprocess a source file
-src/model/Subtraction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/Subtraction.cpp.i
-.PHONY : src/model/Subtraction.cpp.i
+src/model/detector/Subtraction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/Subtraction.cpp.i
+.PHONY : src/model/detector/Subtraction.cpp.i
 
-src/model/Subtraction.s: src/model/Subtraction.cpp.s
-.PHONY : src/model/Subtraction.s
+src/model/detector/Subtraction.s: src/model/detector/Subtraction.cpp.s
+.PHONY : src/model/detector/Subtraction.s
 
 # target to generate assembly for a file
-src/model/Subtraction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/Subtraction.cpp.s
-.PHONY : src/model/Subtraction.cpp.s
+src/model/detector/Subtraction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/Subtraction.cpp.s
+.PHONY : src/model/detector/Subtraction.cpp.s
+
+src/model/detector/Yolo.o: src/model/detector/Yolo.cpp.o
+.PHONY : src/model/detector/Yolo.o
+
+# target to build an object file
+src/model/detector/Yolo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/Yolo.cpp.o
+.PHONY : src/model/detector/Yolo.cpp.o
+
+src/model/detector/Yolo.i: src/model/detector/Yolo.cpp.i
+.PHONY : src/model/detector/Yolo.i
+
+# target to preprocess a source file
+src/model/detector/Yolo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/Yolo.cpp.i
+.PHONY : src/model/detector/Yolo.cpp.i
+
+src/model/detector/Yolo.s: src/model/detector/Yolo.cpp.s
+.PHONY : src/model/detector/Yolo.s
+
+# target to generate assembly for a file
+src/model/detector/Yolo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opente.dir/build.make CMakeFiles/opente.dir/src/model/detector/Yolo.cpp.s
+.PHONY : src/model/detector/Yolo.cpp.s
 
 src/utils/CmdLineParser.o: src/utils/CmdLineParser.cpp.o
 .PHONY : src/utils/CmdLineParser.o
@@ -339,12 +363,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/model/MobileNet.o"
-	@echo "... src/model/MobileNet.i"
-	@echo "... src/model/MobileNet.s"
-	@echo "... src/model/Subtraction.o"
-	@echo "... src/model/Subtraction.i"
-	@echo "... src/model/Subtraction.s"
+	@echo "... src/model/detector/MobileNet.o"
+	@echo "... src/model/detector/MobileNet.i"
+	@echo "... src/model/detector/MobileNet.s"
+	@echo "... src/model/detector/Subtraction.o"
+	@echo "... src/model/detector/Subtraction.i"
+	@echo "... src/model/detector/Subtraction.s"
+	@echo "... src/model/detector/Yolo.o"
+	@echo "... src/model/detector/Yolo.i"
+	@echo "... src/model/detector/Yolo.s"
 	@echo "... src/utils/CmdLineParser.o"
 	@echo "... src/utils/CmdLineParser.i"
 	@echo "... src/utils/CmdLineParser.s"

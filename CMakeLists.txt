@@ -14,8 +14,9 @@ add_definitions(${OpenCV_DEFINITIONS})
 # Find all executables
 file(GLOB project_SRCS  src/main.cpp
 						src/core/CoreTE.cpp
-						src/model/MobileNet.cpp
-						src/model/Subtraction.cpp
+						src/model/detector/Yolo.cpp
+						src/model/detector/MobileNet.cpp
+						src/model/detector/Subtraction.cpp
 						src/features/FileManager.cpp
 						src/utils/CmdLineParser.cpp
 					    src/utils/Log.cpp

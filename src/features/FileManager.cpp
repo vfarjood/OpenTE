@@ -29,10 +29,13 @@ void readClasses(const std::string& classesPath, std::vector<std::string>& class
 
 }
 
-void readModel( const std::string& modelPath, const std::string& configPath, const std::string& framework, cv::dnn::Net& model)
+void readModel( const std::string& modelPath, const std::string& configPath, const std::string& framework, cv::dnn::Net& model, const std::string& model_name)
 {
     // load the neural network model:
-    model = cv::dnn::readNet(modelPath, configPath, framework);
+    if(model_name == "Yolo")
+        model = cv::dnn::readNet(modelPath);
+    else
+        model = cv::dnn::readNet(modelPath, configPath, framework);
 }
 
 void saveImage(const std::string& path, cv::Mat& image)
@@ -51,8 +54,8 @@ void setParam(ParamData& parameters, CmdLineParser& parser)
     parameters.threshold    = parser.get<float>("thr");
     parameters.nms_threshold  = parser.get<float>("nms");
 
-    if(parser.get<std::string>("architecture") != "")
-        parameters.architecture  = parser.get<std::string>("architecture");
+    if(parser.get<std::string>("ModelName") != "")
+        parameters.model_name  = parser.get<std::string>("ModelName");
     if(parser.get<std::string>("framework") != "")
         parameters.framework     = parser.get<std::string>("framework");
     if(parser.get<std::string>("input")  != "")
@@ -65,6 +68,8 @@ void setParam(ParamData& parameters, CmdLineParser& parser)
         parameters.classes_path = parser.get<std::string>("object");
     if(parser.get<std::string>("path") != "")
         parameters.classes_path = parser.get<std::string>("path");
+    if(parser.get<std::string>("background") != "")
+        parameters.background_path = parser.get<std::string>("background");
 }
 
 

@@ -24,4 +24,12 @@ public:
 
 	void drawResultOnImage(cv::Mat& image, std::vector<Centroid>& centroids) override;
 
+private:
+	cv::Mat imgDifference;
+    cv::Mat imgSubtracted;
+    std::vector<std::vector<cv::Point>> contours;
+    std::vector<std::vector<cv::Point>> convexHulls;
 };
+
+
+

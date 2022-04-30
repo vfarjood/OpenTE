@@ -31,20 +31,27 @@ void CoreTE::load()
 
 	readClasses(param.classes_path, classes);
 
-	readModel(param.model_path , param.config_path, param.framework, net);
+	readModel(param.model_path , param.config_path, param.framework, net, param.model_name);
 
 }
 
 void CoreTE::detect()
 {
 	// check which type of model user selected(default is MobileNet):
-	if(param.architecture == "MobileNet")
+	if(param.model_name == "MobileNet")
 	{
     	model = ModelEngine::createModel("MobileNet");
     }
-    else if(param.architecture == "Subtraction")
+	else if(param.model_name == "Yolo")
+	{
+    	model = ModelEngine::createModel("Yolo");
+    	std::cout << "model is set to Yolo\n";
+    }
+    else if(param.model_name == "Subtraction")
     {
     	model = ModelEngine::createModel("Subtraction");
+
+    	output = cv::imread(param.background_path, 1);
     }
     else{
     	std::cout << "Invalid model name!\n";
@@ -78,17 +85,17 @@ void CoreTE::detect()
    		std::cout << "saving..-> done" << std::endl;
 	}
    	std::cout << "end processing" << std::endl;
-   	// for(int i=0; i < centroids.size(); i++)
-   	// {
-   	//     std::cout << "name: "  << centroids[i].name << "\n";
-   	//     std::cout << "ID: "    << centroids[i].id << "\n";
-   	//     std::cout << "conf: "  << centroids[i].conf << "\n";
-   	//     std::cout << "center: "<< centroids[i].center << "\n";
-   	//     std::cout << "c_x: "   << centroids[i].center.x << "\n";
-   	//     std::cout << "c_y: "   << centroids[i].center.y << "\n";
-   	//     std::cout << "w: "     << centroids[i].box.width  << "\n";
-   	//     std::cout << "h: "     << centroids[i].box.height << "\n";
-   	// }
+   	for(int i=0; i < centroids.size(); i++)
+   	{
+   	    std::cout << "name: "  << centroids[i].name << "\n";
+   	    std::cout << "ID: "    << centroids[i].id << "\n";
+   	    std::cout << "conf: "  << centroids[i].conf << "\n";
+   	    std::cout << "center: "<< centroids[i].center << "\n";
+   	    std::cout << "x: "   << centroids[i].box.x << "\n";
+   	    std::cout << "y: "   << centroids[i].box.y << "\n";
+   	    std::cout << "w: "     << centroids[i].box.width  << "\n";
+   	    std::cout << "h: "     << centroids[i].box.height << "\n";
+   	}
 
 
 

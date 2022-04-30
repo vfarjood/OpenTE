@@ -363,8 +363,9 @@ CMakeFiles/opente.dir/src/core/CoreTE.cpp.o: \
   /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/feature/QueueStream.hpp \
   /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/ModelEngine.hpp \
   /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/Model.hpp \
-  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/MobileNet.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/Yolo.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/random \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric \
   /usr/local/Cellar/opencv/4.5.5_1/include/opencv4/opencv2/dnn/all_layers.hpp \
+  /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/MobileNet.hpp \
   /Users/vahidfarjoodchafi/Desktop/C++/project/Computer-Vision/MAC/OpenTE/include/opente/model/Subtraction.hpp
